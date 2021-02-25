@@ -1,0 +1,59 @@
+*{
+margin:auto;
+}
+
+#header{
+text-align:center;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+#user-form-container>div{
+padding-top:10px;
+padding-left:40px;
+padding-bottom:10px;
+}
+
+#Employment-status>div{
+padding-top:5px;
+}
+
+#click-enter{
+text-align:center;
+}
+
+#button-enter{
+width: 100px;
+line-height: 30px;
+background-color: #ADFF2F;
+border: 0;
+color:#000000;
+font-family: "Brush Script MT", cursive;
+font-size: 30px;
+}
+
+#user-form-container{
+  margin-top:200px;
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {background-color: yellow;}
+}
+
+#remember-box{
+padding-left:1px;
+font-size: 25px;
+font-family: "Brush Script MT", cursive;
+}
+
+table, th, td {
+  border: 3px ;
+  border-collapse: collapse;
+  background-color: #E0FFFF;
+  color:#008B8B
+ }
+
+ th{
+ background-color: #FF7F50;
+ }
